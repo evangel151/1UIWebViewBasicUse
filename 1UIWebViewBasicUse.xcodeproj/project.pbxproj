@@ -13,6 +13,8 @@
 		0072EFC01CBA4D0300E8C0B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0072EFBE1CBA4D0300E8C0B5 /* Main.storyboard */; };
 		0072EFC21CBA4D0300E8C0B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0072EFC11CBA4D0300E8C0B5 /* Assets.xcassets */; };
 		0072EFC51CBA4D0300E8C0B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0072EFC31CBA4D0300E8C0B5 /* LaunchScreen.storyboard */; };
+		0072EFCE1CBA562500E8C0B5 /* 关于.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0072EFCD1CBA562500E8C0B5 /* 关于.txt */; };
+		0072EFD01CBA5B5900E8C0B5 /* salary.html in Resources */ = {isa = PBXBuildFile; fileRef = 0072EFCF1CBA5B5900E8C0B5 /* salary.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0072EFC11CBA4D0300E8C0B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0072EFC41CBA4D0300E8C0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0072EFC61CBA4D0300E8C0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0072EFCC1CBA52CA00E8C0B5 /* 02-HTTP.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "02-HTTP.pptx"; sourceTree = "<group>"; };
+		0072EFCD1CBA562500E8C0B5 /* 关于.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "关于.txt"; sourceTree = "<group>"; };
+		0072EFCF1CBA5B5900E8C0B5 /* salary.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = salary.html; sourceTree = "<group>"; };
+		0072EFD11CBA5E0F00E8C0B5 /* HttpDevelop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpDevelop.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			children = (
 				0072EFB81CBA4D0300E8C0B5 /* AppDelegate.h */,
 				0072EFB91CBA4D0300E8C0B5 /* AppDelegate.m */,
+				0072EFCC1CBA52CA00E8C0B5 /* 02-HTTP.pptx */,
 				0072EFBB1CBA4D0300E8C0B5 /* ViewController.h */,
 				0072EFBC1CBA4D0300E8C0B5 /* ViewController.m */,
 				0072EFBE1CBA4D0300E8C0B5 /* Main.storyboard */,
@@ -67,6 +74,7 @@
 				0072EFC31CBA4D0300E8C0B5 /* LaunchScreen.storyboard */,
 				0072EFC61CBA4D0300E8C0B5 /* Info.plist */,
 				0072EFB51CBA4D0300E8C0B5 /* Supporting Files */,
+				0072EFD11CBA5E0F00E8C0B5 /* HttpDevelop.h */,
 			);
 			path = 1UIWebViewBasicUse;
 			sourceTree = "<group>";
@@ -74,7 +82,9 @@
 		0072EFB51CBA4D0300E8C0B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0072EFCF1CBA5B5900E8C0B5 /* salary.html */,
 				0072EFB61CBA4D0300E8C0B5 /* main.m */,
+				0072EFCD1CBA562500E8C0B5 /* 关于.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0072EFC51CBA4D0300E8C0B5 /* LaunchScreen.storyboard in Resources */,
+				0072EFCE1CBA562500E8C0B5 /* 关于.txt in Resources */,
 				0072EFC21CBA4D0300E8C0B5 /* Assets.xcassets in Resources */,
+				0072EFD01CBA5B5900E8C0B5 /* salary.html in Resources */,
 				0072EFC01CBA4D0300E8C0B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
